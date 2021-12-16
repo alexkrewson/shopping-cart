@@ -17,8 +17,16 @@ function Nav() {
     <nav>
 
       {/* <Link style={navStyle} to="./">Home</Link> */}
+      {/* <Link style={navStyle} to={{
+        pathname: "/.Shop",
+        state: "this state",
+      }}
+      >
+        Shop
+      </Link> */}
+      <Link style={navStyle} to="./">Home</Link>
       <Link style={navStyle} to="./Shop">Shop</Link>
-      <Link style={navStyle} to="./Cart">Cart</Link>
+
 
 
 
